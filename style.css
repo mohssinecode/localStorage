@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 500px;
+    margin: 40px auto;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.parent input{
+    border: none;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+.parent input:focus{
+    outline: none;
+}
+.parent .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.parent .buttons span{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.parent .results{
+    background-color: #fff;
+    padding: 10px 0;
+}
+.parent .results span span{
+    color: blue;
+    font-weight: bold;
+}
+.block{
+    display: block;
+}
